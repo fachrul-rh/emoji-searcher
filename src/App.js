@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-import './App.css';
 import Navbar from './components/Navbar';
 import Container from './components/Container';
 import Input from './components/Input';
 import Empty from './components/Empty';
 import Emojis from './components/Emojis';
+import Footer from './components/Footer';
 
 function App() {
   const [emojisData, setEmojisData] = useState([]);
@@ -47,6 +47,7 @@ function App() {
         {error && <Empty text="Error!" />}
         {emojisData.length > 0 && <Emojis emojisData={emojisData} searchText={searchText} />}
       </Container>
+      <Footer />
     </>
   );
 }
