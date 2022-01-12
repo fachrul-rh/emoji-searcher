@@ -1,3 +1,5 @@
+[![](https://raw.githubusercontent.com/fachrul-rh/emoji-searcher/main/emoji-searcher.gif)](https://github.com/fachrul-rh/emoji-searcher)
+
 # Emoji Searcher App - React Introduction
 
 ## Happy coding!
@@ -14,3 +16,21 @@
 - Memberikan type untuk props dengan prop-types
 - CSS Module dan dynamic className dengan classnames
 - Melakukan sentuhan animasi dengan React dan CSS untuk UX
+
+## Sumber API
+
+https://run.mocky.io/v3/fe964130-70d0-430f-b839-e55081423c28
+
+## Cara menjalankan aplikasi
+
+Unduh semua dependencies
+
+```
+npm install
+```
+
+lalu
+
+```
+npm run start
+```
